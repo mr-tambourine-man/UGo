@@ -15,4 +15,4 @@ function ShowUrl(query)
     endif
 endfunction
 
-command! -nargs=1 YouGo call ShowUrl(<f-args>)
+command! -nargs=1 uGo call ShowUrl(<f-args>)
